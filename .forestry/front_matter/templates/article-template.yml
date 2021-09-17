@@ -21,6 +21,7 @@ fields:
   name: description
   label: description
 pages:
+- content/blog/como-uso-la-terminal.md
 - content/blog/docker-en-proyectos-java-i.como-desplegar-una-aplicacion-java-en-tomcat-usando-docker.md
 - content/blog/pero-esto-que-es.md
 - content/blog/resumen-de-2016-y-propositos-para-2017.md
