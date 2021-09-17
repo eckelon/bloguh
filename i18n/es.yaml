@@ -1,0 +1,47 @@
+powered:
+  other: "Funcionando con"
+
+theme:
+  other: "tema"
+
+readMore:
+  other: "leer más"
+
+toNewPosts:
+  other: "artículos más recientes"
+
+toOldPosts:
+  other: "artículos más antiguos"
+
+tag:
+  other: "etiqueta"
+
+Tags:
+  other: "Etiquetas"
+
+Posts:
+  other: "Artículos"
+
+category:
+  other: "categoría"
+
+Categories:
+  other: "Categorías"
+
+toAllTags:
+  other: "todas las etiquetas"
+
+toAllCategories:
+  other: "todas las categorías"
+
+skipToContent:
+  other: "saltar al contenido"
+
+darkTheme:
+  other: "tema oscuro"
+
+lightTheme:
+  other: "tema luminoso"
+
+published:
+  other: "Publicado el"
