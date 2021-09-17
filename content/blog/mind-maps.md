@@ -11,7 +11,6 @@ tags:
 - note taking
 - work
 description: Read how I use mindmaps for writing notes and organizing my work
-draft: true
 
 ---
 ![Mindmaps](./uploads/mindmaps.jpg)
