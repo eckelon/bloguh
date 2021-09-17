@@ -3,7 +3,6 @@ author = ["JA Samitier"]
 categories = ["personal"]
 date = 2017-01-13T23:00:00Z
 description = ""
-draft = true
 tags = []
 title = "¿Pero esto qué es?"
 
