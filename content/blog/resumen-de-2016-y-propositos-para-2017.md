@@ -3,7 +3,6 @@ author = ["JA Samitier"]
 categories = ["personal"]
 date = 2017-01-16T23:00:00Z
 description = ""
-draft = true
 tags = ["new years resolutions", "year in review"]
 title = "Resumen de 2016 y propósitos para 2017"
 
