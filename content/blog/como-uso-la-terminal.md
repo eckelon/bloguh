@@ -3,7 +3,6 @@ author = ["JA Samitier"]
 categories = ["development"]
 date = 2017-01-21T23:00:00Z
 description = ""
-draft = true
 tags = ["unix", "terminal", "zsh", "terminal"]
 title = "Cómo uso la terminal"
 

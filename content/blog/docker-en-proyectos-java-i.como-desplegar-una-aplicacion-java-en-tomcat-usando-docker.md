@@ -3,7 +3,6 @@ author = ["JA Samitier"]
 categories = ["development"]
 date = 2017-01-14T23:00:00Z
 description = ""
-draft = true
 tags = ["docker", "tomcat", "java"]
 title = "Docker en proyectos Java (I). Cómo desplegar una aplicación Java en tomcat usando Docker"
 
