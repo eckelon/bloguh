@@ -1,14 +1,19 @@
 ---
-title: "How mind maps changed the way I take notes"
-date: 2020-02-26T15:40:24+06:00
-author : ["JA Samitier"]
-categories: ["personal"]
-tags: [productivity, mind maps, note taking, work]
-description: "Read how I use mindmaps for writing notes and organizing my work"
-draft: false
----
+title: How mind maps changed the way I take notes
+date: 2020-02-26T15:40:24.000+06:00
+author:
+- JA Samitier
+categories:
+- personal
+tags:
+- productivity
+- mind maps
+- note taking
+- work
+description: Read how I use mindmaps for writing notes and organizing my work
 
-![Mindmaps](./images/mindmaps.jpg)
+---
+![Mindmaps](./uploads/mindmaps.jpg)
 
 <span class="image-credit">Photo by [Charles Deluvio](https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/mindmaps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</span>
 
@@ -21,4 +26,3 @@ Some weeks ago I found on Reddit [Why the N.Y.P.D. Dropped One of Its Oldest Cri
 That thing about don't practicing enough made me try it again, but if I wanted to success I needed a different approach. Then, the last piece of the puzzle emerged. It was [this interview on Learning Legenario](https://learninglegendario.com/episodio-30-visual-thinking-y-formacion-con-lorena-estevez/) (in Spanish) to Lorena Estevez who explained different techniques of story telling using Visual Thinking. She mentioned how she takes notes using [mind maps](https://www.youtube.com/watch?v=5nTuScU70As) and then I finally found what was left for switching my paper notebook to an app on my phone. The app was [Mindmeister](https://www.mindmeister.com), though later I switched to [Xmind](https://www.xmind.net) since it let me store the notes in my own cloud service instead of forcing me to having an account. I've been aware of my on-line data for 2 years, but that's another story :)
 
 I started using Xmind in some meetings and I stopped having that classic feeling of losing sight while taking notes. After a week I wasn't carrying my paper notebook with me anymore, only my phone. Consequently I could search through my notes and share them in pdf or markdown to anybody right after the end of the meeting.
-
