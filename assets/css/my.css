@@ -8,3 +8,15 @@
   height: 12rem;
   object-fit: cover;
 }
+
+.container #main .post.h-entry .content.e-content img {
+  height: 15rem;
+  object-fit: cover;
+  width: 100%;
+}
+.container #main .post.h-entry .content.e-content .image-credit {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  font-style: italic;
+}
