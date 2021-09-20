@@ -18,6 +18,7 @@ dateFormat = "2006-01-02"
 paginationSinglePost = true
 style = "light-without-switcher"
 readMore = false
+customCSS = ["css/my.css"]
 
 # utteranc.es support
 utterancesRepo = ""  # mandatory

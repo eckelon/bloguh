@@ -1,0 +1,10 @@
+.container #main .articles.h-feed .p-name.post-title {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: bold;
+}
+.container #main .articles.h-feed .featured-image {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+}

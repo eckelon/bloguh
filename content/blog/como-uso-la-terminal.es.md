@@ -5,6 +5,7 @@ date = 2017-01-21T23:00:00Z
 description = ""
 tags = ["unix", "terminal", "zsh", "terminal"]
 title = "Cómo uso la terminal"
+featureimage = "/uploads/farzad-nazifi-p-xsl33wxyc-unsplash.jpg"
 
 +++
 En el trabajo, las dos aplicaciones en las que más centro mi atención son la terminal, donde hago cosas, y el navegador, donde las pruebo. No me gusta usas demasiadas aplicaciones porque eso me supone tener que aprender configuraciones y formas de trabajar que realmente no aportan demasiado. Además, como en el trabajo uso Mac OS y en casa Ubuntu, es un lío tener que usar distintas aplicaciones para lo mismo solo porque no estén en un sistema operativo u otro. En esta entrada me gustaría describir cómo y por qué uso la terminal.

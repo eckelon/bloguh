@@ -1,0 +1,37 @@
+<article class="post-list h-feed">
+  <header class="post-header">
+    <h2
+      class="p-name post-title{{ if .Params.favorite }} favorite{{
+        end
+      }}{{ if .Params.draft }} draft{{ end }}"
+    >
+      <a class="u-url" href="{{ .RelPermalink }}">{{ trim .Title " " }}</a>
+    </h2>
+    {{ partial "post-language-switcher.html" . }}
+  </header>
+
+  {{ if .Params.featureimage }}
+  <img
+    class="featured-image"
+    loading="lazy"
+    src="{{ .Params.featureimage }}"
+    height="100"
+  />
+  {{ end }}
+  {{ if not .Site.Params.disableSummary }}
+  <div class="content post-summary p-summary">
+    {{ .Summary | safeHTML }}
+  </div>
+  {{ end }}
+  {{ if and (.Truncated) (.Site.Params.readMore) }}
+  <div class="read-more">
+    <a
+      class="u-url"
+      href="{{ .RelPermalink }}"
+      >{{ i18n "readMore" | humanize }}</a
+    >
+  </div>
+  {{ end }}
+
+  {{ partial "post-info.html" . }}
+</article>
