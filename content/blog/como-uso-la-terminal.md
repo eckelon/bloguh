@@ -9,8 +9,6 @@ title = "Cómo uso la terminal"
 +++
 En el trabajo, las dos aplicaciones en las que más centro mi atención son la terminal, donde hago cosas, y el navegador, donde las pruebo. No me gusta usas demasiadas aplicaciones porque eso me supone tener que aprender configuraciones y formas de trabajar que realmente no aportan demasiado. Además, como en el trabajo uso Mac OS y en casa Ubuntu, es un lío tener que usar distintas aplicaciones para lo mismo solo porque no estén en un sistema operativo u otro. En esta entrada me gustaría describir cómo y por qué uso la terminal.
 
-![Imagen de un ordenador ejecutando una terminal](/uploads/farzad-nazifi-p-xsl33wxyc-unsplash.jpg)
-
 <img loading=lazy alt="Imagen de un ordenador ejecutando una terminal" src="/uploads/farzad-nazifi-p-xsl33wxyc-unsplash.jpg"/>
 
 <span class='image-credit'>Photo by <a href="https://unsplash.com/@euwars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Farzad Nazifi</a> on <a href="https://unsplash.com/collections/1111107/programming?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
