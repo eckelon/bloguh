@@ -13,7 +13,7 @@ name = "JA Samitier"
 
 [params]
 author = "JA Samitier"
-description = "Anubis is a simple minimalist theme for Hugo blog engine."
+description = "Welcome to eckelon.net"
 dateFormat = "2006-01-02"
 paginationSinglePost = true
 style = "light-without-switcher"
@@ -56,6 +56,7 @@ weight = 3
 languageName = "English"
 [languages.es]
 languageName = "Español"
+description = "Bienvenido a eckelon.net"
 
 [[languages.es.menu.main]]
 identifier = "about"
