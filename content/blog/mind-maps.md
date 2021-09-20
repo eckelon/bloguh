@@ -13,7 +13,7 @@ tags:
 description: Read how I use mindmaps for writing notes and organizing my work
 
 ---
-![Mindmaps](./uploads/mindmaps.jpg)
+![Mindmaps](../../uploads/mindmaps.jpg)
 
 <span class="image-credit">Photo by [Charles Deluvio](https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/mindmaps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</span>
 
