@@ -1,3 +1,6 @@
+.container .common-header .header-top .site-title a {
+  font-size: 1.5rem;
+}
 .container #main .articles.h-feed .p-name.post-title {
   font-size: 1.5rem;
   margin: 0;
@@ -5,12 +8,12 @@
 }
 .container #main .articles.h-feed .featured-image {
   width: 100%;
-  height: 12rem;
+  height: 16rem;
   object-fit: cover;
 }
 
 .container #main .post.h-entry .content.e-content img {
-  height: 15rem;
+  height: 20rem;
   object-fit: cover;
   width: 100%;
 }

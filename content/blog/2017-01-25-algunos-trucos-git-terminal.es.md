@@ -1,18 +1,18 @@
----
-title: Algunos trucos git en la terminal
-date: 2017-01-25T15:40:24.000+06:00
-author:
-- JA Samitier
-categories:
-- development
-tags:
-- productivity
-- work
-- zsh
-- ohmyzsh
-- git
-description: Trucos fáciles para empezar a usar la terminal de forma productiva
----
++++
+title="Algunos trucos git en la terminal"
+date="2017-01-25T15:40:24.000+06:00"
+author=["JA Samitier"]
+categories=["development"]
+tags=["productivity", "work", "zsh", "ohmyzsh", "git"]
+description="Trucos fáciles para empezar a usar la terminal de forma productiva"
+[featureimage]
+    url = "/uploads/maksym-kaharlytskyi-Q9y3LRuuxmg-unsplash.jpg"
+    alias = "big old archive full of rusty cards"
+    creditAuthor = "Maksym Kaharlytskyi"
+    creditAuthorUrl = "https://unsplash.com/@qwitka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    creditPlatform = "Unsplash"
+    creditUrl = "https://unsplash.com&utm_medium=referral&utm_content=creditCopyText"
++++
 
 El otro día enseñé a [Jorge](http://jorgeatgu.com) un par de funciones de mi [`.zshrc`](https://github.com/eckelon/dotfiles/blob/master/zshrc) que me facilitan la vida gestionando repositorios git desde la terminal y le gustaron bastante. He pensado que igual también resultan interesantes por aquí.
 

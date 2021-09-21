@@ -1,15 +1,17 @@
----
-title: Resumen de mi 2018 y propósitos para 2019
-date: 2019-01-09T15:40:24.000+06:00
-author:
-- JA Samitier
-categories:
-- personal
-tags:
-- work
-- new years resolutions
-- year in review
----
++++
+title="Resumen de mi 2018 y propósitos para 2019"
+date="2019-01-09T15:40:24.000+06:00"
+author=["JA Samitier"]
+categories=["personal"]
+tags=["work", "new years resolutions", "year in review"]
+[featureimage]
+    url = "/uploads/tim-mossholder-3I3WVoA-Gks-unsplash.jpg"
+    alias = "new years resolutions written with ink in a piece of paper"
+    creditAuthor = "Tim Mossholder"
+    creditAuthorUrl = "https://unsplash.com/@timmossholder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    creditPlatform = "Unsplash"
+    creditUrl = "https://unsplash.com&utm_medium=referral&utm_content=creditCopyText"
++++
 
 2018 ha sido una auténtica locura tanto en lo personal como en lo profesional, y no quería dejar escapar la oportunidad de escribir algo cortito por aquí a modo de resumen.
 
@@ -26,11 +28,11 @@ En lo personal:
 - He vuelto a leer asiduamente, aunque sobretodo libros técnicos.
 
 - He empezado a preocuparme más por la privacidad:
-    - Le he dicho adiós a Gmail en favor de [Protonmail](https://protonmail.com).
-    - He dejado de usar Google Drive / Dropbox y los he cambiado por un [NextCloud](https://nextcloud.com) auto alojado con encriptación de extremo a extremo.
-    - He cambiado LastPass por un fichero [KeePass](https://keepass.info). Utilizo [MacPass](https://github.com/MacPass/MacPass) y [KeePass Touch](https://itunes.apple.com/us/app/keepass-touch/id966759076).
-    - He dejado de usar Google como buscador, en favor de [DuckDuckGo](https://duckduckgo.com).
-    - He cambiado Google Keep por notas en markdown en NextCloud y no podría estar más contento. En el movil uso [Pretext](https://itunes.apple.com/us/app/pretext/id1347707000) y me va fetén.
+  - Le he dicho adiós a Gmail en favor de [Protonmail](https://protonmail.com).
+  - He dejado de usar Google Drive / Dropbox y los he cambiado por un [NextCloud](https://nextcloud.com) auto alojado con encriptación de extremo a extremo.
+  - He cambiado LastPass por un fichero [KeePass](https://keepass.info). Utilizo [MacPass](https://github.com/MacPass/MacPass) y [KeePass Touch](https://itunes.apple.com/us/app/keepass-touch/id966759076).
+  - He dejado de usar Google como buscador, en favor de [DuckDuckGo](https://duckduckgo.com).
+  - He cambiado Google Keep por notas en markdown en NextCloud y no podría estar más contento. En el movil uso [Pretext](https://itunes.apple.com/us/app/pretext/id1347707000) y me va fetén.
 
 En lo profesional:
 

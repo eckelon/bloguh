@@ -1,21 +1,18 @@
----
-title: How mind maps changed the way I take notes
-date: 2020-02-26T15:40:24.000+06:00
-author:
-- JA Samitier
-categories:
-- personal
-tags:
-- productivity
-- mind maps
-- note taking
-- work
-description: Read how I use mindmaps for writing notes and organizing my work
-
----
-![Mindmaps](../../uploads/mindmaps.jpg)
-
-<span class="image-credit">Photo by [Charles Deluvio](https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/mindmaps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</span>
++++
+title="How mind maps changed the way I take notes"
+date="2020-02-26T15:40:24.000+06:00"
+author=["JA Samitier"]
+categories=["personal"]
+tags=["productivity", "mind maps", "note taking", "work"]
+description= "Read how I use mindmaps for writing notes and organizing my work"
+[featureimage]
+    url = "/uploads/mindmaps.jpg"
+    alias = "Two people looking at a wall with a big mind map with blue, green and red arrows connecting dots"
+    creditAuthor = "Charles Deluvio"
+    creditAuthorUrl = "https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    creditPlatform = "Unsplash"
+    creditUrl = "https://unsplash.com&utm_medium=referral&utm_content=creditCopyText"
++++
 
 I've always been the _paper and pen_ type. Addicted to stationery items, my desk was always a mess, full of post-its, pens, notebooks, markers... You name it. I wasn't finding the perfect organization method for taking notes in meetings, conferences, etc. and then being able to read them later in a convenient way. I started lots of notebooks and systems, like Hipster PDA or bullet journal, but after a coupleof days I always gave up. Last year I started using [Pretext](https://apps.apple.com/us/app/pretext/id1347707000) for writing notes and synchronizing them through my cloud service. That was very handy because I could search them easily, but I still felt handcuffed when trying to use it in meetings or conferences since I couldn't draw lines, arrows or any symbol easily. So I gave up again and continued using notebooks at work.
 

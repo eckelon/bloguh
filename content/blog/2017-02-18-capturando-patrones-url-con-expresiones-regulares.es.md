@@ -1,15 +1,18 @@
----
-title: Capturando URLs mediante expresiones regulares fáciles
-date: 2017-02-18T15:40:24.000+06:00
-author:
-- JA Samitier
-categories:
-- development
-tags:
-- work
-- regexp
-description: Cómo usé expresiones regulares para migrar una web de http a https
----
++++
+title= "Capturando URLs mediante expresiones regulares fáciles"
+date="2017-02-18T15:40:24.000+06:00"
+author=["JA Samitier"]
+categories=["development"]
+tags=["work", "regexp"]
+description="Cómo usé expresiones regulares para migrar una web de http a https"
+[featureimage]
+    url = "/uploads/alexandre-debieve-WbCjF1jzno0-unsplash.jpg"
+    alias = "bunch of cables in a sound mixer"
+    creditAuthor = "Alexandre Debiève"
+    creditAuthorUrl = "https://unsplash.com/@alexkixa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    creditPlatform = "Unsplash"
+    creditUrl = "https://unsplash.com&utm_medium=referral&utm_content=creditCopyText"
++++
 
 Esta semana, hemos migrado un proyecto bastante grande a _https_. Es un proyecto implantado en varios países, de modo que tenemos que gestionar bastantes traducciones. En esta entrada me gustaría contar la forma que se me ocurrió para modificar todas las URLs contenidas en los textos de las traducciones para cambiarles el _http_ por el _https_. Normalmente, con redirigir las peticiones _http_ a _https_ bastaría, pero como en muchas páginas y comunicaciones para los usuarios se pintan estas urls con el protocolo, necesitábamos cambiarlo ahí también.
 
