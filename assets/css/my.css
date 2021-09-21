@@ -1,6 +1,25 @@
 .container .common-header .header-top .site-title a {
   font-size: 1.5rem;
 }
+.container .common-header .header-top .header-stuff {
+  display: flex;
+  align-items: center;
+}
+
+.container .common-header .header-top .header-stuff nav {
+  background: initial;
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
+.container .common-header .header-top .header-stuff nav a {
+  margin: 0;
+}
+
+.container .common-header .header-top .header-stuff nav a:hover {
+  color: initial;
+  border-bottom: 1px solid black;
+}
 .container #main .articles.h-feed .p-name.post-title {
   font-size: 1.5rem;
   margin: 0;

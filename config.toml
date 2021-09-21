@@ -37,21 +37,21 @@ url = "https://linkedin.com/in/jasamitier"
 
 [[menu.main]]
 identifier = "about"
-name = "About"
+name = "About me"
 url = "/about/"
 weight = 1
 
-[[menu.main]]
-identifier = "tags"
-name = "Tags"
-url = "/tags/"
-weight = 2
+# [[menu.main]]
+# identifier = "tags"
+# name = "Tags"
+# url = "/tags/"
+# weight = 2
 
-[[menu.main]]
-name = "Archive"
-identifier = "archive"
-url = "/blog/"
-weight = 3
+# [[menu.main]]
+# name = "Archive"
+# identifier = "archive"
+# url = "/blog/"
+# weight = 3
 
 [languages.en]
 languageName = "English"
@@ -65,17 +65,17 @@ name = "Sobre mi"
 url = "/about/"
 weight = 1
 
-[[languages.es.menu.main]]
-identifier = "tags"
-name = "Etiquetas"
-url = "/tags/"
-weight = 2
+# [[languages.es.menu.main]]
+# identifier = "tags"
+# name = "Etiquetas"
+# url = "/tags/"
+# weight = 2
 
-[[languages.es.menu.main]]
-identifier = "archive"
-name = "Archivos"
-url = "/posts/"
-weight = 3
+# [[languages.es.menu.main]]
+# identifier = "archive"
+# name = "Archivos"
+# url = "/blog/"
+# weight = 3
 
 [taxonomies]
 category = "categories"

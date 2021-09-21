@@ -1,0 +1,31 @@
+<div class="header-stuff">
+{{ if .Site.Menus.main }}
+    <nav>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL | absLangURL }}" title="{{ .Title }}">{{ .Name }}</a>
+        {{ end }}
+    </nav>
+{{ else }}
+    <nav></nav>
+{{ end }}
+<ul class="social-icons">
+{{ range $.Site.Params.Social }}
+    {{ if and (isset $.Site.Data.social.social_icons .id) (isset . "name") }}
+        {{ $url := index $.Site.Data.social.social_icons .id }}
+        {{ $ref := printf $url .name }}
+        <li>
+            <a {{ printf "href=%q" $ref | safeHTMLAttr }} title="{{ humanize .id }}" rel="me">
+            {{ partial "font-awesome.html" (dict "iconName" .id "custom" false) }}
+            </a>
+        </li>
+    {{ else if (isset . "url") }}
+        <li>
+            <a href="{{ printf .url }}" title="{{ humanize .id }}" rel="me">
+                {{ partial "font-awesome.html" (dict "iconName" .id "custom" true) }}
+            </a>
+        </li>
+    {{ end }}
+{{ end }}
+</ul>
+</div>
