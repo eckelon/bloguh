@@ -15,19 +15,19 @@
   {{ $imagePath := path.Join "images/uploads/" .Params.featureimage.fileName }}
   {{ $banner := resources.GetMatch $imagePath }}
 
-  {{ $tiny := ($banner.Resize "768x") }}
-  {{ $small := ($banner.Resize "1024x") }}
-  {{ $medium := ($banner.Resize "1200x") }}
-  {{ $large := ($banner.Resize "1920x") }}
+  {{ $tiny := ($banner.Resize "480x") }}
+  {{ $small := ($banner.Resize "768x") }}
+  {{ $medium := ($banner.Resize "1024x") }}
+  {{ $large := ($banner.Resize "1200x") }}
 
   <img
     class="featured-image"
     loading="lazy"
     srcset="
-        {{- with $tiny.RelPermalink -}}{{.}} 768w{{- end -}}
-        {{- with $small.RelPermalink -}}, {{.}} 1024w{{- end -}}
-        {{- with $medium.RelPermalink -}}, {{.}} 1200w{{- end -}}
-        {{- with $large.RelPermalink -}}, {{.}} 1920w{{- end -}}"
+        {{- with $tiny.RelPermalink -}}{{.}} 480w{{- end -}}
+        {{- with $small.RelPermalink -}}, {{.}} 768w{{- end -}}
+        {{- with $medium.RelPermalink -}}, {{.}} 1024w{{- end -}}
+        {{- with $large.RelPermalink -}}, {{.}} 1200w{{- end -}}"
     src="{{ $banner.RelPermalink }}"
     alt="{{ .Params.featureimage.alias }}"
   />
