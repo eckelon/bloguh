@@ -1,0 +1,41 @@
+---
+label: article-with-image
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: author
+  label: author
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: field_group
+  name: featureimage
+  label: featureimage
+  fields:
+  - type: file
+    name: fileName
+    label: fileName
+  - type: text
+    name: alias
+    label: alias
+  - type: text
+    name: creditAuthor
+    label: creditAuthor
+  - type: textarea
+    name: creditAuthorUrl
+    label: creditAuthorUrl
+  - type: text
+    name: creditPlatform
+    label: creditPlatform
+  - type: text
+    name: creditUrl
+    label: creditUrl
