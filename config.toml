@@ -1,4 +1,4 @@
-baseURL = "https://eckelon.vercel.app"
+baseURL = "https://eckelon.net"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "/var/blog/jasamitier"
