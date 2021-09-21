@@ -6,7 +6,7 @@ description = ""
 tags = ["unix", "terminal", "zsh", "terminal"]
 title = "Cómo uso la terminal"
 [featureimage]
-    url = "/uploads/farzad-nazifi-p-xsl33wxyc-unsplash.jpg"
+    fileName = "farzad-nazifi-p-xsl33wxyc-unsplash.jpg"
     alias = "coding workstation"
     creditAuthor = "Farzad Nazifi"
     creditAuthorUrl = "https://unsplash.com/@euwars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"

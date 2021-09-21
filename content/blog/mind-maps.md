@@ -6,7 +6,7 @@ categories=["personal"]
 tags=["productivity", "mind maps", "note taking", "work"]
 description= "Read how I use mindmaps for writing notes and organizing my work"
 [featureimage]
-    url = "/uploads/mindmaps.jpg"
+    fileName = "mindmaps.jpg"
     alias = "Two people looking at a wall with a big mind map with blue, green and red arrows connecting dots"
     creditAuthor = "Charles Deluvio"
     creditAuthorUrl = "https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"

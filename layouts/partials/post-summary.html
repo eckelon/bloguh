@@ -11,13 +11,27 @@
   </header>
 
   {{ if .Params.featureimage }}
+
+  {{ $imagePath := path.Join "images/uploads/" .Params.featureimage.fileName }}
+  {{ $banner := resources.GetMatch $imagePath }}
+
+  {{ $tiny := ($banner.Resize "768x") }}
+  {{ $small := ($banner.Resize "1024x") }}
+  {{ $medium := ($banner.Resize "1200x") }}
+  {{ $large := ($banner.Resize "1920x") }}
+
   <img
     class="featured-image"
     loading="lazy"
-    src="{{ .Params.featureimage.url }}"
+    srcset="
+        {{- with $tiny.RelPermalink -}}{{.}} 768w{{- end -}}
+        {{- with $small.RelPermalink -}}, {{.}} 1024w{{- end -}}
+        {{- with $medium.RelPermalink -}}, {{.}} 1200w{{- end -}}
+        {{- with $large.RelPermalink -}}, {{.}} 1920w{{- end -}}"
+    src="{{ $banner.RelPermalink }}"
     alt="{{ .Params.featureimage.alias }}"
-    height="100"
   />
+
   {{ end }}
   {{ if not .Site.Params.disableSummary }}
   <div class="content post-summary p-summary">

@@ -6,7 +6,7 @@ categories=["development"]
 tags=["work", "regexp"]
 description="Cómo usé expresiones regulares para migrar una web de http a https"
 [featureimage]
-    url = "/uploads/alexandre-debieve-WbCjF1jzno0-unsplash.jpg"
+    fileName = "alexandre-debieve-WbCjF1jzno0-unsplash.jpg"
     alias = "bunch of cables in a sound mixer"
     creditAuthor = "Alexandre Debiève"
     creditAuthorUrl = "https://unsplash.com/@alexkixa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"

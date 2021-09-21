@@ -6,7 +6,7 @@ categories=["development"]
 tags=["productivity", "work", "zsh", "ohmyzsh", "git"]
 description="Trucos fáciles para empezar a usar la terminal de forma productiva"
 [featureimage]
-    url = "/uploads/maksym-kaharlytskyi-Q9y3LRuuxmg-unsplash.jpg"
+    fileName = "maksym-kaharlytskyi-Q9y3LRuuxmg-unsplash.jpg"
     alias = "big old archive full of rusty cards"
     creditAuthor = "Maksym Kaharlytskyi"
     creditAuthorUrl = "https://unsplash.com/@qwitka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"

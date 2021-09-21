@@ -1,39 +1,75 @@
 {{ define "main" }}
-    {{ if .Menus }}
-        <nav class="post-navigation">
-        {{ range .Menus }}
-            <a href="{{ .URL | absLangURL }}" title="{{ .Title }}">{{ .Name }}</a>
-        {{ end }}
-        </nav>
+{{ if .Menus }}
+<nav class="post-navigation">
+  {{ range.Menus }}
+  <a href="{{ .URL | absLangURL }}" title="{{ .Title }}">{{ .Name }}</a>
+  {{ end }}
+</nav>
+{{ end }}
+
+<article class="post h-entry">
+  <header class="post-header">
+    <h1
+      class="p-name post-title{{ if .Params.favorite }} favorite{{
+        end
+      }}{{ if .Params.draft }} draft{{ end }}"
+    >
+      {{ trim .Title  " " }}
+    </h1>
+
+    {{ partial "post-language-switcher.html" . }}
+  </header>
+  <div class="content e-content">
+    {{ if .Params.featureimage }}
+    {{ $imagePath := path.Join "images/uploads/" .Params.featureimage.fileName }}
+    {{ $banner := resources.GetMatch $imagePath }}
+
+    {{ $tiny := ($banner.Resize "768x") }}
+    {{ $small := ($banner.Resize "1024x") }}
+    {{ $medium := ($banner.Resize "1200x") }}
+    {{ $large := ($banner.Resize "1920x") }}
+
+    <img
+      class="featured-image"
+      loading="lazy"
+      srcset="
+        {{- with $tiny.RelPermalink -}}{{.}} 768w{{- end -}}
+        {{- with $small.RelPermalink -}}, {{.}} 1024w{{- end -}}
+        {{- with $medium.RelPermalink -}}, {{.}} 1200w{{- end -}}
+        {{- with $large.RelPermalink -}}, {{.}} 1920w{{- end -}}"
+      src="{{ $banner.RelPermalink }}"
+      alt="{{ .Params.featureimage.alias }}"
+    />
+
+    <span class="image-credit"
+      >Photo by
+      <a
+        href="{{ .Params.featureimage.creditAuthorUrl }}"
+        >{{ .Params.featureimage.creditAuthor }}</a
+      >
+      on
+      <a
+        href="{{ .Params.featureimage.creditUrl }}"
+        >{{ .Params.featureimage.creditPlatform  }}</a
+      ></span
+    >
     {{ end }}
 
-    <article class="post h-entry">
-        <header class="post-header">
-            <h1 class="p-name post-title{{ if .Params.favorite }} favorite{{end}}{{ if .Params.draft }} draft{{end}}">{{ trim .Title  " " }}</h1>
+    {{ .Content }}
+  </div>
+  {{ partial "post-info.html" . }}
+</article>
 
-            {{ partial "post-language-switcher.html" . }}
-        </header>
-        <div class="content e-content">
-          {{ if .Params.featureimage }}
-          <img loading="lazy" src="{{ .Params.featureimage.url }}" alt="{{ .Params.featureimage.alias }}" />
-          <span class='image-credit'>Photo by <a href="{{ .Params.featureimage.creditAuthorUrl }}">{{ .Params.featureimage.creditAuthor }}</a> on <a href="{{ .Params.featureimage.creditUrl }}">{{ .Params.featureimage.creditPlatform  }}</a></span>
-          {{ end }}
+{{ if and (.Site.Params.paginationSinglePost) (ne .Type "page") }}
+{{ partial "post-pagination.html" . }}
+{{ end }}
 
-          {{ .Content }}
-        </div>
-        {{ partial "post-info.html" . }}
-    </article>
+{{ if .Site.DisqusShortname }}
+{{ template "_internal/disqus.html" . }}
+{{ end }}
 
-    {{ if and (.Site.Params.paginationSinglePost) (ne .Type "page") }}
-        {{ partial "post-pagination.html" . }}
-    {{ end }}
-
-    {{ if .Site.DisqusShortname }}
-        {{ template "_internal/disqus.html" . }}
-    {{ end }}
-
-    {{ if .Site.Params.UtterancesRepo }}
-        {{ partial "utterances.html" . }}
-    {{ end }}
+{{ if .Site.Params.UtterancesRepo }}
+{{ partial "utterances.html" . }}
+{{ end }}
 
 {{ end }}

@@ -32,7 +32,7 @@
 }
 
 .container #main .post.h-entry .content.e-content img {
-  height: 20rem;
+  height: 16rem;
   object-fit: cover;
   width: 100%;
 }

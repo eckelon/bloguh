@@ -5,7 +5,7 @@ author=["JA Samitier"]
 categories=["personal"]
 tags=["work", "new years resolutions", "year in review"]
 [featureimage]
-    url = "/uploads/tim-mossholder-3I3WVoA-Gks-unsplash.jpg"
+    fileName = "tim-mossholder-3I3WVoA-Gks-unsplash.jpg"
     alias = "new years resolutions written with ink in a piece of paper"
     creditAuthor = "Tim Mossholder"
     creditAuthorUrl = "https://unsplash.com/@timmossholder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
