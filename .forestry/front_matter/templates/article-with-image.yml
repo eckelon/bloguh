@@ -8,6 +8,10 @@ fields:
 - type: datetime
   name: date
   label: date
+  config:
+    required: true
+    display_utc: true
+  default: now
 - type: list
   name: author
   label: author
