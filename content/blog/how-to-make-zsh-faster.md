@@ -2,6 +2,7 @@
 author = ["J.A. Samitier"]
 categories = ["development"]
 date = 2021-11-26T00:00:00Z
+draft = true
 tags = ["terminal", "zsh"]
 title = "How to make zsh faster"
 [featureimage]
