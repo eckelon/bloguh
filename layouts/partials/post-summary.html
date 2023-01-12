@@ -12,9 +12,10 @@
 
   {{ if .Params.featureimage }}
 
-  {{ $imagePath := path.Join "images/uploads/" .Params.featureimage.fileName }}
+  {{ $imagePath := path.Join "assets/images/uploads/" .Params.featureimage.fileName }}
   {{ $banner := resources.GetMatch $imagePath }}
 
+  {{ if $banner }}
   {{ $tiny := ($banner.Resize "480x") }}
   {{ $small := ($banner.Resize "768x") }}
   {{ $medium := ($banner.Resize "1024x") }}
@@ -32,6 +33,7 @@
     alt="{{ .Params.featureimage.alias }}"
   />
 
+  {{ end }}
   {{ end }}
   {{ if not .Site.Params.disableSummary }}
   <div class="content post-summary p-summary">

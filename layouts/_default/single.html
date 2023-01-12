@@ -24,6 +24,8 @@
   {{ $imagePath := path.Join "images/uploads/" .Params.featureimage.fileName }}
   {{ $banner := resources.GetMatch $imagePath }}
 
+  {{ if $banner }}
+
   {{ $tiny := ($banner.Resize "480x") }}
   {{ $small := ($banner.Resize "768x") }}
   {{ $medium := ($banner.Resize "1024x") }}
@@ -53,6 +55,7 @@
         >{{ .Params.featureimage.creditPlatform  }}</a
       ></span
     >
+    {{ end }}
     {{ end }}
 
     {{ .Content }}
