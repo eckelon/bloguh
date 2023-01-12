@@ -12,7 +12,7 @@
 
   {{ if .Params.featureimage }}
 
-  {{ $imagePath := path.Join "assets/images/uploads/" .Params.featureimage.fileName }}
+  {{ $imagePath := path.Join "images/uploads/" .Params.featureimage.fileName }}
   {{ $banner := resources.GetMatch $imagePath }}
 
   {{ if $banner }}
