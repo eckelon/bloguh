@@ -27,6 +27,9 @@ utterancesIssue = "" # optional
 utterancesLabel = "" # optional
 
 [[params.social]]
+id = "mastodon"
+url = "https://mastodon.social/@eckelon"
+[[params.social]]
 id = "twitter"
 url = "https://twitter.com/eckelon"
 [[params.social]]

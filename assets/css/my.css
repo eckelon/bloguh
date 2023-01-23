@@ -42,3 +42,77 @@
   font-size: 0.8rem;
   font-style: italic;
 }
+
+.container #main .content .ToC {
+	padding: 10px 0;
+	background-color: --table-border-color;
+}
+
+
+.container #main .content .ToC .ToC-title {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.container #main .content .ToC .collapse-icon {
+	width: 3px;
+	height: 3px;
+	margin-right: 10px;
+}
+.container #main .content .ToC #TableOfContents {
+	height: auto;
+	max-height: 1000px;
+	overflow: hidden;
+	transition: max-height 1.25s ease-out;
+}
+
+.container #main .content .ToC #TableOfContents.collapsed {
+	max-height:0;
+}
+.container #main .content .ToC  ul {
+	margin: 0;
+	padding: 0;
+}
+.container #main .content .ToC  ul li {
+	list-style: none;
+	font-size: 20px;
+	line-height: 40px;
+}
+.container #main .content .ToC  ul li a {
+	color: --link-color;
+}
+
+.container #main .content  ul li a:hover {
+	color: #1d60a3;
+	border: 0;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transition: all 1s ease-out;
+}
+
+.arrow.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.arrow.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.arrow.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.arrow.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+

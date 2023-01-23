@@ -58,10 +58,37 @@
     {{ end }}
     {{ end }}
 
+    {{ if .Params.toc }}
+
+    <div class="ToC">
+	    <div class="ToC-title">
+		    <span class="collapse-icon arrow down"></span>
+		    <h2> {{ i18n "tableOfContents" | humanize }} </h2>
+	    </div>
+    {{ .TableOfContents }}
+    </div>
+    {{ end }}
     {{ .Content }}
   </div>
   {{ partial "post-info.html" . }}
 </article>
+
+<script>
+	const triggerTocButton = document.querySelector('.container #main .content .ToC .ToC-title');
+	const tocNav = document.querySelector('.container #main .content .ToC #TableOfContents');
+	const icon = document.querySelector('.collapse-icon.arrow');
+
+	const triggerToc = () => tocNav.classList.toggle('collapsed');
+	const animateIcon = () => { 
+		icon.classList.toggle('down');
+		icon.classList.toggle('right');
+	};
+
+	triggerTocButton.addEventListener('click', () => {
+		triggerToc();
+		animateIcon();
+	});
+</script>
 
 {{ if and (.Site.Params.paginationSinglePost) (ne .Type "page") }}
 {{ partial "post-pagination.html" . }}
