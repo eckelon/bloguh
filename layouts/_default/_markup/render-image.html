@@ -1,1 +1,21 @@
-<img loading="lazy" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
+  {{ $image := resources.GetMatch .Destination }}
+
+  {{ if $image }}
+
+  {{ $tiny := ($image.Resize "480x") }}
+  {{ $small := ($image.Resize "768x") }}
+  {{ $medium := ($image.Resize "1024x") }}
+  {{ $large := ($image.Resize "1200x") }}
+
+  <img
+    loading="lazy"
+    srcset="
+        {{- with $tiny.RelPermalink -}}{{.}} 480w{{- end -}}
+        {{- with $small.RelPermalink -}}, {{.}} 768w{{- end -}}
+        {{- with $medium.RelPermalink -}}, {{.}} 1024w{{- end -}}
+        {{- with $large.RelPermalink -}}, {{.}} 1200w{{- end -}}"
+    src="{{ $image.RelPermalink }}"
+    alt="{{ .Text }}"
+  />
+
+ {{ end }}

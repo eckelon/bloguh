@@ -30,12 +30,14 @@ utterancesLabel = "" # optional
 id = "mastodon"
 url = "https://mastodon.social/@eckelon"
 [[params.social]]
-id = "twitter"
-url = "https://twitter.com/eckelon"
+id = "github"
+url = "https://github.com/eckelon"
 [[params.social]]
 id = "linkedin"
 url = "https://linkedin.com/in/jasamitier"
-
+[[params.social]]
+id = "twitter"
+url = "https://twitter.com/eckelon"
 [menu]
 
 [[menu.main]]

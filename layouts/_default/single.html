@@ -67,13 +67,7 @@
 	    </div>
     {{ .TableOfContents }}
     </div>
-    {{ end }}
-    {{ .Content }}
-  </div>
-  {{ partial "post-info.html" . }}
-</article>
-
-<script>
+    <script>
 	const triggerTocButton = document.querySelector('.container #main .content .ToC .ToC-title');
 	const tocNav = document.querySelector('.container #main .content .ToC #TableOfContents');
 	const icon = document.querySelector('.collapse-icon.arrow');
@@ -89,6 +83,13 @@
 		animateIcon();
 	});
 </script>
+
+    {{ end }}
+    {{ .Content }}
+  </div>
+  {{ partial "post-info.html" . }}
+</article>
+
 
 {{ if and (.Site.Params.paginationSinglePost) (ne .Type "page") }}
 {{ partial "post-pagination.html" . }}
